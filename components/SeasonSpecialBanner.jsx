@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SeasonSpecialBanner: React.FC = () => {
+const SeasonSpecialBanner = () => {
   return (
     <div className="relative w-full overflow-hidden h-[500px] flex items-center nursery-banner">
       {/* Background Image with Overlay */}
