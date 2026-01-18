@@ -1,5 +1,4 @@
 import React from 'react';
-import { Plant, CareTip } from './types';
 
 // Icons
 export const Icons = {
@@ -35,7 +34,7 @@ export const Icons = {
   )
 };
 
-export const PLANTS: Plant[] = [
+export const PLANTS = [
   {
     id: '1',
     name: 'Monstera Deliciosa',
@@ -110,7 +109,7 @@ export const PLANTS: Plant[] = [
   }
 ];
 
-export const STATIC_CARE_TIPS: CareTip[] = [
+export const STATIC_CARE_TIPS = [
   {
     title: 'Water Wisely',
     description: 'Overwatering is the #1 killer. Check the top inch of soil before watering.',
