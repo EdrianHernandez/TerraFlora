@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icons } from '../constants.js';
+import { Icons } from '../constants.jsx';
 
 const SustainabilityBadges = () => {
   return (
