@@ -1,5 +1,5 @@
 import React from 'react';
-import { PLANTS, Icons } from '../constants.js';
+import { PLANTS, Icons } from '../constants.jsx';
 
 const PlantGrid = () => {
   return (
