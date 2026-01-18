@@ -1,11 +1,11 @@
 import React from 'react';
-import { Icons } from './constants';
-import SeasonSpecialBanner from './components/SeasonSpecialBanner';
-import SustainabilityBadges from './components/SustainabilityBadges';
-import PlantGrid from './components/PlantGrid';
-import CareGuideSidebar from './components/CareGuideSidebar';
+import { Icons } from './constants.js';
+import SeasonSpecialBanner from './components/SeasonSpecialBanner.jsx';
+import SustainabilityBadges from './components/SustainabilityBadges.jsx';
+import PlantGrid from './components/PlantGrid.jsx';
+import CareGuideSidebar from './components/CareGuideSidebar.jsx';
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <div className="min-h-screen flex flex-col font-sans">
       
