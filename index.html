@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terra Flora | Organic Plant Nursery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              terra: {
+                50: '#fcfaf8',
+                100: '#f7f4ef',
+                200: '#efe6db',
+                300: '#e0ceb9',
+                400: '#d2b496',
+                500: '#c39673',
+                600: '#b88361',
+                700: '#99684c',
+                800: '#7f5641',
+                900: '#674637',
+              },
+              moss: {
+                50: '#f2f9f3',
+                100: '#e1f2e3',
+                200: '#c5e6c9',
+                300: '#9bd4a3',
+                400: '#6bbd78',
+                500: '#48a257',
+                600: '#388444',
+                700: '#30693a',
+                800: '#295431',
+                900: '#23452b',
+              }
+            },
+            fontFamily: {
+              sans: ['Helvetica Neue', 'Arial', 'sans-serif'],
+              serif: ['Georgia', 'serif'],
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-terra-50 text-terra-900 antialiased selection:bg-moss-200 selection:text-moss-900">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
