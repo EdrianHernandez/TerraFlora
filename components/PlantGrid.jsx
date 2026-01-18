@@ -1,7 +1,7 @@
 import React from 'react';
-import { PLANTS, Icons } from '../constants';
+import { PLANTS, Icons } from '../constants.js';
 
-const PlantGrid: React.FC = () => {
+const PlantGrid = () => {
   return (
     <div className="flex-1">
       <div className="flex justify-between items-baseline mb-8">
