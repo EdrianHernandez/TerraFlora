@@ -1,7 +1,7 @@
 import React from 'react';
-import { Icons, STATIC_CARE_TIPS } from '../constants';
+import { Icons, STATIC_CARE_TIPS } from '../constants.js';
 
-const CareGuideSidebar: React.FC = () => {
+const CareGuideSidebar = () => {
   return (
     <aside className="w-full lg:w-80 flex-shrink-0 bg-white rounded-xl shadow-sm border border-terra-100 p-6 flex flex-col gap-8 h-fit lg:sticky lg:top-24">
       
