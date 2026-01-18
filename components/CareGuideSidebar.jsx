@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icons, STATIC_CARE_TIPS } from '../constants.js';
+import { Icons, STATIC_CARE_TIPS } from '../constants.jsx';
 
 const CareGuideSidebar = () => {
   return (
