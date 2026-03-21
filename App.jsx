@@ -10,7 +10,7 @@ const App = () => {
     <div className="min-h-screen flex flex-col font-sans">
       
       {/* Navigation Header */}
-      <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-terra-200">
+      <header className="sticky top-0 z-10 bg-white/80 backdrop-blur-md border-b border-terra-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <span className="text-moss-700"><Icons.Sprout /></span>
@@ -32,7 +32,7 @@ const App = () => {
         <SeasonSpecialBanner />
         <SustainabilityBadges />
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 -mt-20">
           {/* Responsive Layout: Grid left, Sidebar right (on desktop) */}
           <div className="flex flex-col lg:flex-row gap-12">
             
@@ -50,7 +50,7 @@ const App = () => {
       <footer className="bg-terra-900 text-terra-200 py-12 mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="font-serif text-xl text-white mb-4">Terra Flora</h3>
+            <h3 className="font-serif text-4xl text-white mb-4">Terra Flora</h3>
             <p className="text-sm font-light opacity-80 leading-relaxed">
               Cultivating connections between people and plants. Sustainably grown, carefully shipped, and guaranteed to thrive.
             </p>

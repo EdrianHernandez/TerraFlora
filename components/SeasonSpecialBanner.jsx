@@ -10,7 +10,7 @@ const SeasonSpecialBanner = () => {
           alt="Greenhouse interior" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-terra-900/90 via-terra-800/60 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-terra-900/20 via-terra-800/10 to-transparent" />
       </div>
 
       {/* Content */}

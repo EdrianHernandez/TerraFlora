@@ -19,8 +19,8 @@ const CareGuideSidebar = () => {
                 {tip.icon}
               </div>
               <div>
-                <h3 className="font-medium text-terra-800 text-sm mb-1">{tip.title}</h3>
-                <p className="text-xs text-terra-500 leading-relaxed">{tip.description}</p>
+                <h3 className="font-medium text-terra-700 text-[10px] mb-1">{tip.title}</h3>
+                <p className="text-[8px] text-terra-400 leading-relaxed">{tip.description}</p>
               </div>
             </div>
           ))}
