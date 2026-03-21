@@ -1,0 +1,122 @@
+[
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "file_path": "App.jsx",
+        "image_anchor": "TerraFlora_bug-1.png",
+        "text_anchors": [
+            "The header keeps sliding behind the banner when scrolling down.",
+            "The navigation bar is rendering behind the main content instead of staying on top.",
+            "I cannot click on navigation links because the page content is covering them."
+        ],
+        "positive_node": "<header className=\"sticky top-0 z-10 bg-white/80 backdrop-blur-md border-b border-terra-200\">",
+        "playwright_selector": "header.sticky"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "file_path": "components/PlantGrid.jsx",
+        "image_anchor": "TerraFlora_bug-2.png",
+        "text_anchors": [
+            "The plant name tags are hidden under the image.",
+            "The featured badge labels are not appearing on top of plant photos as intended.",
+            "Users cannot see the product tags to identify featured items."
+        ],
+        "positive_node": "<div className=\"absolute top-3 left-3 flex flex-col gap-2 z-0\">",
+        "playwright_selector": "div.plant-card img ~ div[class*=\"absolute top-3\"]"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "file_path": "components/PlantGrid.jsx",
+        "image_anchor": "TerraFlora_bug-3.png",
+        "text_anchors": [
+            "The plants are showing in one long column instead of multiple columns.",
+            "Plants are stacking vertically even on desktop screens instead of displaying side by side.",
+            "On large screens, I have to scroll endlessly through plants one at a time instead of seeing multiple plants at once."
+        ],
+        "positive_node": "<div className=\"grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-6\">",
+        "playwright_selector": "div[class*=\"grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1\"]"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "file_path": "components/SustainabilityBadges.jsx",
+        "image_anchor": "TerraFlora_bug-4.png",
+        "text_anchors": [
+            "The sustainability badges are stacking vertically on the screen.",
+            "The eco-friendly badges are no longer displaying horizontally across the page width.",
+            "Users see a tall vertical stack of sustainability badges instead of a clean horizontal row."
+        ],
+        "positive_node": "<div className=\"flex flex-col justify-center gap-8 md:gap-16 text-terra-800\">",
+        "playwright_selector": "div[class*=\"flex flex-col justify-center gap-8\"]"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "file_path": "App.jsx",
+        "image_anchor": "TerraFlora_bug-5.png",
+        "text_anchors": [
+            "The company name in the footer is enormous and doesn't fit.",
+            "The footer heading text is much too large and breaks the layout.",
+            "The giant footer title makes it hard to read the rest of the footer content."
+        ],
+        "positive_node": "<h3 className=\"font-serif text-4xl text-white mb-4\">Terra Flora</h3>",
+        "playwright_selector": "footer h3[class*=\"text-4xl\"]"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "file_path": "components/CareGuideSidebar.jsx",
+        "image_anchor": "TerraFlora_bug-6.png",
+        "text_anchors": [
+            "The care tips are impossible to read—they're too small and faded.",
+            "Care guide text has reduced contrast and is much smaller than before.",
+            "I cannot read the plant care information because the text is tiny and the color is too light."
+        ],
+        "positive_node": "<h3 className=\"font-medium text-terra-700 text-[10px] mb-1\">{tip.title}</h3>",
+        "playwright_selector": "div[class*=\"care-badge\"] h3[class*=\"text-terra-700\"]"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "file_path": "App.jsx",
+        "image_anchor": "TerraFlora_bug-7.png",
+        "text_anchors": [
+            "The main content section is overlapping the banner area.",
+            "Content is positioned too high and overlapping with the section above it.",
+            "I cannot see the full banner content because products are stacked on top of it."
+        ],
+        "positive_node": "<div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 -mt-20\">",
+        "playwright_selector": "main > div[class*=\"max-w-7xl\"][class*=\"-mt-20\"]"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "file_path": "components/PlantGrid.jsx",
+        "image_anchor": "TerraFlora_bug-8.png",
+        "text_anchors": [
+            "Plant card text is cramped against the edges.",
+            "The plant card content has almost no padding, making it feel cramped.",
+            "Text and information on plant cards is squeezed together with barely any breathing room."
+        ],
+        "positive_node": "<div className=\"p-1 flex flex-col flex-1\">",
+        "playwright_selector": "div.plant-card > div[class*=\"p-1 flex flex-col\"]"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "file_path": "components/SeasonSpecialBanner.jsx",
+        "image_anchor": "TerraFlora_bug-9.png",
+        "text_anchors": [
+            "The banner text is hard to read—it blends into the background image.",
+            "The text overlay gradient is too transparent, making the heading almost invisible.",
+            "I cannot read the banner headline because it disappears into the background photo."
+        ],
+        "positive_node": "<div className=\"absolute inset-0 bg-gradient-to-r from-terra-900/20 via-terra-800/10 to-transparent\" />",
+        "playwright_selector": "div[class*=\"nursery-banner\"] > div[class*=\"z-0\"] > div[class*=\"bg-gradient-to-r\"]"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "file_path": "components/PlantGrid.jsx",
+        "image_anchor": "TerraFlora_bug-10.png",
+        "text_anchors": [
+            "There's a floating button below the plant cards that shouldn't be there.",
+            "A white button is appearing outside the card boundaries at an odd position.",
+            "An action button is sticking out of the bottom of plant cards where it shouldn't be visible."
+        ],
+        "positive_node": "<button className=\"absolute -bottom-8 right-4 bg-white text-terra-900 p-3 rounded-full shadow-lg opacity-100 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 hover:bg-moss-600 hover:text-white\">",
+        "playwright_selector": "div.plant-card button[class*=\"-bottom-8\"]"
+    }
+]

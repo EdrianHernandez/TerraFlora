@@ -1,0 +1,72 @@
+[
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "image_anchor": "TerraFlora_bug-1.png",
+        "file_path": "App.jsx",
+        "text_anchor": "The navigation bar is rendering behind the main content instead of staying on top.",
+        "positive_node": "<header className=\"sticky top-0 z-10 bg-white/80 backdrop-blur-md border-b border-terra-200\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "image_anchor": "TerraFlora_bug-2.png",
+        "file_path": "components/PlantGrid.jsx",
+        "text_anchor": "The featured badge labels are not appearing on top of plant photos as intended.",
+        "positive_node": "<div className=\"absolute top-3 left-3 flex flex-col gap-2 z-0\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "image_anchor": "TerraFlora_bug-3.png",
+        "file_path": "components/PlantGrid.jsx",
+        "text_anchor": "Plants are stacking vertically even on desktop screens instead of displaying side by side.",
+        "positive_node": "<div className=\"grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-6\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "image_anchor": "TerraFlora_bug-4.png",
+        "file_path": "components/SustainabilityBadges.jsx",
+        "text_anchor": "The eco-friendly badges are no longer displaying horizontally across the page width.",
+        "positive_node": "<div className=\"flex flex-col justify-center gap-8 md:gap-16 text-terra-800\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "image_anchor": "TerraFlora_bug-5.png",
+        "file_path": "App.jsx",
+        "text_anchor": "The footer heading text is much too large and breaks the layout.",
+        "positive_node": "<h3 className=\"font-serif text-4xl text-white mb-4\">Terra Flora</h3>"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "image_anchor": "TerraFlora_bug-6.png",
+        "file_path": "components/CareGuideSidebar.jsx",
+        "text_anchor": "Care guide text has reduced contrast and is much smaller than before.",
+        "positive_node": "<h3 className=\"font-medium text-terra-700 text-[10px] mb-1\">{tip.title}</h3>"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "image_anchor": "TerraFlora_bug-7.png",
+        "file_path": "App.jsx",
+        "text_anchor": "Content is positioned too high and overlapping with the section above it.",
+        "positive_node": "<div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 -mt-20\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "image_anchor": "TerraFlora_bug-8.png",
+        "file_path": "components/PlantGrid.jsx",
+        "text_anchor": "The plant card content has almost no padding, making it feel cramped.",
+        "positive_node": "<div className=\"p-1 flex flex-col flex-1\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "image_anchor": "TerraFlora_bug-9.png",
+        "file_path": "components/SeasonSpecialBanner.jsx",
+        "text_anchor": "The text overlay gradient is too transparent, making the heading almost invisible.",
+        "positive_node": "<div className=\"absolute inset-0 bg-gradient-to-r from-terra-900/20 via-terra-800/10 to-transparent\" />"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "image_anchor": "TerraFlora_bug-10.png",
+        "file_path": "components/PlantGrid.jsx",
+        "text_anchor": "A white button is appearing outside the card boundaries at an odd position.",
+        "positive_node": "<button className=\"absolute -bottom-8 right-4 bg-white text-terra-900 p-3 rounded-full shadow-lg opacity-100 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 hover:bg-moss-600 hover:text-white\">"
+    }
+]

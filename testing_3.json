@@ -1,0 +1,72 @@
+[
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "image_anchor": "TerraFlora_bug-1.png",
+        "file_path": "App.jsx",
+        "text_anchor": "I cannot click on navigation links because the page content is covering them.",
+        "positive_node": "<header className=\"sticky top-0 z-10 bg-white/80 backdrop-blur-md border-b border-terra-200\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "image_anchor": "TerraFlora_bug-2.png",
+        "file_path": "components/PlantGrid.jsx",
+        "text_anchor": "Users cannot see the product tags to identify featured items.",
+        "positive_node": "<div className=\"absolute top-3 left-3 flex flex-col gap-2 z-0\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "image_anchor": "TerraFlora_bug-3.png",
+        "file_path": "components/PlantGrid.jsx",
+        "text_anchor": "On large screens, I have to scroll endlessly through plants one at a time instead of seeing multiple plants at once.",
+        "positive_node": "<div className=\"grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-6\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "image_anchor": "TerraFlora_bug-4.png",
+        "file_path": "components/SustainabilityBadges.jsx",
+        "text_anchor": "Users see a tall vertical stack of sustainability badges instead of a clean horizontal row.",
+        "positive_node": "<div className=\"flex flex-col justify-center gap-8 md:gap-16 text-terra-800\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "image_anchor": "TerraFlora_bug-5.png",
+        "file_path": "App.jsx",
+        "text_anchor": "The giant footer title makes it hard to read the rest of the footer content.",
+        "positive_node": "<h3 className=\"font-serif text-4xl text-white mb-4\">Terra Flora</h3>"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "image_anchor": "TerraFlora_bug-6.png",
+        "file_path": "components/CareGuideSidebar.jsx",
+        "text_anchor": "I cannot read the plant care information because the text is tiny and the color is too light.",
+        "positive_node": "<h3 className=\"font-medium text-terra-700 text-[10px] mb-1\">{tip.title}</h3>"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "image_anchor": "TerraFlora_bug-7.png",
+        "file_path": "App.jsx",
+        "text_anchor": "I cannot see the full banner content because products are stacked on top of it.",
+        "positive_node": "<div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 -mt-20\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "image_anchor": "TerraFlora_bug-8.png",
+        "file_path": "components/PlantGrid.jsx",
+        "text_anchor": "Text and information on plant cards is squeezed together with barely any breathing room.",
+        "positive_node": "<div className=\"p-1 flex flex-col flex-1\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "image_anchor": "TerraFlora_bug-9.png",
+        "file_path": "components/SeasonSpecialBanner.jsx",
+        "text_anchor": "I cannot read the banner headline because it disappears into the background photo.",
+        "positive_node": "<div className=\"absolute inset-0 bg-gradient-to-r from-terra-900/20 via-terra-800/10 to-transparent\" />"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "image_anchor": "TerraFlora_bug-10.png",
+        "file_path": "components/PlantGrid.jsx",
+        "text_anchor": "An action button is sticking out of the bottom of plant cards where it shouldn't be visible.",
+        "positive_node": "<button className=\"absolute -bottom-8 right-4 bg-white text-terra-900 p-3 rounded-full shadow-lg opacity-100 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 hover:bg-moss-600 hover:text-white\">"
+    }
+]
