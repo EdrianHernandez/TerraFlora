@@ -1,69 +1,69 @@
 [
     {
-        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora",
         "image_anchor": "TerraFlora_bug-1.png",
         "file_path": "App.jsx",
         "text_anchor": "The header keeps sliding behind the banner when scrolling down.",
         "positive_node": "<header className=\"sticky top-0 z-10 bg-white/80 backdrop-blur-md border-b border-terra-200\">"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora",
         "image_anchor": "TerraFlora_bug-2.png",
         "file_path": "components/PlantGrid.jsx",
         "text_anchor": "The plant name tags are hidden under the image.",
         "positive_node": "<div className=\"absolute top-3 left-3 flex flex-col gap-2 z-0\">"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora",
         "image_anchor": "TerraFlora_bug-3.png",
         "file_path": "components/PlantGrid.jsx",
         "text_anchor": "The plants are showing in one long column instead of multiple columns.",
         "positive_node": "<div className=\"grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-6\">"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora",
         "image_anchor": "TerraFlora_bug-4.png",
         "file_path": "components/SustainabilityBadges.jsx",
         "text_anchor": "The sustainability badges are stacking vertically on the screen.",
         "positive_node": "<div className=\"flex flex-col justify-center gap-8 md:gap-16 text-terra-800\">"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora",
         "image_anchor": "TerraFlora_bug-5.png",
         "file_path": "App.jsx",
         "text_anchor": "The company name in the footer is enormous and doesn't fit.",
         "positive_node": "<h3 className=\"font-serif text-4xl text-white mb-4\">Terra Flora</h3>"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora",
         "image_anchor": "TerraFlora_bug-6.png",
         "file_path": "components/CareGuideSidebar.jsx",
         "text_anchor": "The care tips are impossible to read—they're too small and faded.",
         "positive_node": "<h3 className=\"font-medium text-terra-700 text-[10px] mb-1\">{tip.title}</h3>"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora",
         "image_anchor": "TerraFlora_bug-7.png",
         "file_path": "App.jsx",
         "text_anchor": "The main content section is overlapping the banner area.",
         "positive_node": "<div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 -mt-20\">"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora",
         "image_anchor": "TerraFlora_bug-8.png",
         "file_path": "components/PlantGrid.jsx",
         "text_anchor": "Plant card text is cramped against the edges.",
         "positive_node": "<div className=\"p-1 flex flex-col flex-1\">"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora",
         "image_anchor": "TerraFlora_bug-9.png",
         "file_path": "components/SeasonSpecialBanner.jsx",
         "text_anchor": "The banner text is hard to read—it blends into the background image.",
         "positive_node": "<div className=\"absolute inset-0 bg-gradient-to-r from-terra-900/20 via-terra-800/10 to-transparent\" />"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/TerraFlora.git",
+        "github_repo": "https://github.com/EdrianHernandez/TerraFlora",
         "image_anchor": "TerraFlora_bug-10.png",
         "file_path": "components/PlantGrid.jsx",
         "text_anchor": "There's a floating button below the plant cards that shouldn't be there.",
